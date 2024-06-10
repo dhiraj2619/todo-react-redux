@@ -1,0 +1,25 @@
+.button {
+    background-color: #ffffff00;
+    color: #8707ff;
+    width: 8.5em;
+    height: 2.9em;
+    border: #8707ff 0.2em solid;
+    border-radius: 11px;
+    text-align: center;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover {
+    background-color: #8707ff;
+    cursor: pointer;
+    color: white;
+  }
+  
+ 
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }

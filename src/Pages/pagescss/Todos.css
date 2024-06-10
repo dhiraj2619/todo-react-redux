@@ -1,0 +1,39 @@
+.input-control {
+    color: rgb(0, 0, 0.4);
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+  }
+  
+.form-control{
+    box-shadow: none !important;
+}
+.form-control.input-control:focus{
+    border: 2px solid #7f09ed;
+}
+
+.addtodo {
+    background-color: #8707ff;
+    color: white;
+    width: 8.5em;
+    height: 2.9em;
+    border: #8707ff 0.2em solid;
+    border-radius: 11px;
+    text-align: center;
+    transition: all 0.6s ease;
+  }
+  
+  .addtodo:hover {
+     opacity: 0.8;
+  }
+  
+ 
+  .addtodo:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
+  
